@@ -37,14 +37,22 @@ body {
 
 .change-button {
     font-size: 15px;
-    line-height: 15px;
-    border:rgb(255, 0, 0);
+    line-height: 15px; 
     border-width: 0 10px;
     border-radius: 0;
     background-color: #3A606E;
     color: rgb(253, 253, 253);
     padding: 10px 55px 10px 55px;
     
+}
+
+.change-button:hover{
+    background-color: #265161;
+}
+
+.change-button:active {
+    padding: 8px 53px 8px 53px;
+    border: 2px inset #183742;
 }
 
 #delete{
@@ -69,10 +77,14 @@ body {
 }
 
 .digit-button {
-    padding: 4% 14% 4% 14%;
+    padding: 5% 10% 5% 10%;
     font-size: 15px;
     background-color: #607B7D;
     color: rgb(253, 253, 253);
+}
+
+.digit-button:hover{
+    background-color: #315c5f;
 }
 
 #operator {
@@ -80,8 +92,12 @@ body {
 }
 
 .operator-button{
-    padding: 4% 14.6% 4% 14.6%;  
+    padding: 5% 10% 5% 10%;
     font-size: 15px; 
     background-color: #51696b;
     color: rgb(253, 253, 253);
+}
+
+.operator-button:hover {
+    background-color: #374749 ;
 }
